@@ -22,30 +22,65 @@
 
                     <div class="masthead clearfix">
                         <div class="inner">
-                            <img src="images/quentin_title.png"
-                            class="masthead-brand" alt="Quentin Tarantino" />
-                            <nav>
+                            <a href="index.html">
+                                <img src="images/quentin_title.png" class="masthead-brand" alt="Quentin Tarantino"/>
+                            </a>
+                            <nav class="navbar-inverse">
                                 <ul class="nav masthead-nav">
                                     <li><a
                                             href="index.html"><img
                                             src="images/accueil.png"
                                             alt="Accueil" /></a></li>
-                                    <li><a href="bibliographie.html"><img
-                                    src="images/bibliographie.png" alt="Bibliographie" /></a></li>
-                                    <li class="active"><a href="films.html"><img
-                                            src="images/films.png" alt="Films"></a></li>
+                                    <li class="dropdown active">
+                                        <a href="#" class="dropdown-toggle"
+                                            data-toggle="dropdown"
+                                            role="button"
+                                            aria-expanded="false"><img
+                                            src="images/tarantino_menu.png"
+                                            alt="Bibliographie"> <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="bibliographie.html"><img
+                                                   src="images/savie_menu.png"
+                                                   alt="Sa vie" /></a></li>
+                                            <li class="active"><a href="oeuvres.html"><img
+                                                   src="images/sonoeuvre_menu.png"
+                                                   alt="Son oeuvre" /></a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="images/films.png" alt="Films"> <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="fiche_reservoir.html"><img
+                                                   src="images/reservoir_menu.png"
+                                                   alt="Reservoir Dogs" /></a></li>
+                                            <li><a href="fiche_pulp.html"><img
+                                                   src="images/pulp_menu.png"
+                                                   alt="Pulp Fiction" /></a></li>
+                                            <li><a href="fiche_kill.html"><img
+                                                   src="images/kill_menu.png"
+                                                   alt="Kill Bill" /></a></li>
+                                            <li><a href="fiche_boulevard.html"><img
+                                                   src="images/boulevard_menu.png"
+                                                   alt="Boulevard de la Mort" /></a></li>
+                                            <li><a href="fiche_inglorious.html"><img
+                                                   src="images/inglorious_menu.png"
+                                                   alt="Inglorious Basterds" /></a></li>
+                                            <li><a href="fiche_django.html"><img
+                                                   src="images/django_menu.png"
+                                                   alt="Django Unchained" /></a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="inspirations.html"><img
-                                    src="images/inspirations.png"
-                                    alt="Inspirations" /></a></li>
-                                    <li><a href="styles.html"><img
-                                    src="images/styles.png" alt="Styles"/></a></li>
+                                           src="images/inspirations.png"
+                                           alt="Inspirations" /></a></li>
                                     <li><a href="source.html"><img
-                                            src="images/sources.png"
-                                            alt="Sources"/></a></li>
+                                           src="images/sources.png"
+                                           alt="Sources"/></a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
+
 
                     <div class="inner cover">
                         <!-- Carousel ================================================== -->
@@ -57,85 +92,53 @@
                                 <li data-target="#myCarousel" data-slide-to="2"></li>
                                 <li data-target="#myCarousel" data-slide-to="3"></li>
                                 <li data-target="#myCarousel" data-slide-to="4"></li>
-                                <li data-target="#myCarousel" data-slide-to="5"></li>
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
                                     <img
-                                     src="images/reservoirdogs_slide.jpg" alt="First slide">
+                                     src="images/birthday.jpg" alt="First slide">
                                     <div class="container">
                                         <div class="carousel-caption">
-                                            <h1>Reservoir Dogs</h1>
-                                            <h3>1992</h3>
-                                            <p><a class="btn btn-lg
-                                            btn-primary"
-                                                  href="fiche_reservoir.html"
-                                                  role="button">Voir la fiche complète</a></p>
+                                            <h1>My Best Friend's Birthday!
+                                                (inachevé)</h1>
+                                            <h3>1987</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/pulpfiction_slide.jpg" alt="Second slide">
+                                    <img src="images/true.jpg" alt="Second slide">
                                     <div class="container">
                                         <div class="carousel-caption">
-                                            <h1>Pulp Fiction</h1>
-                                            <h3>1994</h3>
-                                            <p><a class="btn btn-lg
-                                            btn-primary"
-                                                  href="fiche_pulp.html"
-                                                  role="button">Voir la fiche complète</a></p>
+                                            <h1>True Romance</h1>
+                                            <h3>1993</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/killbill_slide.jpg" alt="Third slide">
+                                    <img src="images/nuit.jpg" alt="Third slide">
                                     <div class="container">
                                         <div class="carousel-caption">
-                                            <h1>Kill Bill 1 et 2</h1>
-                                            <h3>2003 et 2004</h3>
-                                            <p><a class="btn btn-lg
-                                            btn-primary"
-                                                  href="fiche_kill.html"
-                                                  role="button">Voir la fiche complète</a></p>
+                                            <h1>Une nuit en enfer (acteur)</h1>
+                                            <h3>1996</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/boulevard_slide.jpg" alt="Third slide">
+                                    <img src="images/jackie.jpg" alt="Third slide">
                                     <div class="container">
                                         <div class="carousel-caption">
-                                            <h1>Boulevard de la Mort</h1>
-                                            <h3>2007</h3>
-                                            <p><a class="btn btn-lg
-                                            btn-primary"
-                                                  href="fiche_boulevard.html"
-                                                  role="button">Voir la fiche complète</a></p>
+                                            <h1>Jackie Brown</h1>
+                                            <h3>1997</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/inglorious_slide.jpg" alt="Third slide">
+                                    <img src="images/experts.jpg" alt="Third slide">
                                     <div class="container">
                                         <div class="carousel-caption">
-                                            <h1>Inglorious Basterds</h1>
-                                            <h3>2009</h3>
-                                            <p><a class="btn btn-lg
-                                            btn-primary"
-                                                  href="fiche_inglorious.html"
-                                                  role="button">Voir la fiche complète</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="images/django_slide.jpg" alt="Third slide">
-                                    <div class="container">
-                                        <div class="carousel-caption">
-                                            <h1>Django Unchained</h1>
-                                            <h3>2012</h3>
-                                            <p><a class="btn btn-lg
-                                            btn-primary"
-                                                  href="fiche_django.html"
-                                                  role="button">Voir la fiche complète</a></p>
+                                            <h1>Les Experts (Série) Saison 5</h1>
+                                            <h2>épisode 24 et 25</h2>
+                                            <h3>2005</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -154,7 +157,8 @@
                     <div class="mastfoot">
                         <div class="inner">
                             <p>Quentin Tarantino, 2014, Projet de l'IUT Paris
-                            Descartes</p>
+                            Descartes réalisé par S. Fouquet, François Mercier,
+                            Kévin Harismendy et Justin Rerolle.</p>
                         </div>
                     </div>
 

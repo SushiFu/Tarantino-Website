@@ -31,6 +31,7 @@ a:hover {
     font-weight: 300;
     line-height: 1.4;
     text-indent: 30px;
+    text-align: justify;
 }
 
 #cover p{
@@ -114,6 +115,10 @@ body {
 
 .cover {
     margin-top: 150px;
+}
+
+.cover-heading {
+    margin-top: 100px;
 }
 
 .mastfoot {
